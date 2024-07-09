@@ -1,0 +1,7 @@
+*~
+.*~
+old/
+__pycache__/
+stuff.txt
+read_stuff.py
+*.bmp
