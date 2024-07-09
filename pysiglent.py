@@ -38,6 +38,8 @@ class Instrument:
                     self.kind='SPECAN'
                 if(self.model()[0:3]=='SPD'):
                     self.kind='PSU'
+                if(self.model()[0:3]=='SDL'):
+                    self.kind='LOAD'
 
     def query(self,string):
         global query_sleep
